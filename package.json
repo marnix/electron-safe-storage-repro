@@ -1,10 +1,11 @@
 {
-  "name": "minimal-repro",
+  "name": "electron-safe-storage-repro",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "based on minimal-repro: A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/electron/minimal-repro",
   "keywords": [
@@ -17,6 +18,12 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^36.4.0"
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "linux": {
+      "target": ["tar.gz"]
+    }
   }
 }

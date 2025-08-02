@@ -3,6 +3,19 @@
     base: 'core22',
     plugs: [
       'password-manager-service',
+
+      'audio-playback',
+      'browser-support',
+      'desktop',
+      'desktop-legacy',
+      'gsettings',
+      'home',
+      'network',
+      'opengl',
+      'pulseaudio',
+      'unity7',
+      'wayland',
+      'x11',
     ],
   },
 }

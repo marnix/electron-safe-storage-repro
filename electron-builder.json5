@@ -1,5 +1,8 @@
 {
   snap: {
-    base: 'core22'
+    base: 'core22',
+    plugs: [
+      'password-manager-service',
+    ],
   },
 }

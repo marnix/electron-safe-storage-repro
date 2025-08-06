@@ -11,7 +11,7 @@
   "author": "marnix.klooster+paratext10studio@gmail.com",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^36.4.0",
+    "electron": "^37.2.6",
     "electron-builder": "^26.0.16"
   },
   "build": {
